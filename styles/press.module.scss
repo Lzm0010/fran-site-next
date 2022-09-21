@@ -1,0 +1,103 @@
+.container {
+    padding: 0 2rem;
+}
+
+.main {
+    min-height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8rem;
+    // justify-content: center;
+    align-items: center;
+}
+
+.pressContainer {
+    margin-top: -6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pressTitleContainer {
+    transform: skew(-7deg);
+}
+
+.pressTitleInnerContainer {
+    font-size: 3rem;
+    font-family: Playfair Display;
+    color: $primary-dark-color;
+    text-align: center;
+    background-color: $primary-light-color;
+    padding: 0 1rem;
+}
+
+.pressTitle {
+    background-color: $primary-white;
+    padding: 0 27rem;
+
+    @media (max-width: 900px) {
+        padding: 0 5rem;
+    }
+}
+
+.pressText {
+    transform: skew(7deg);
+}
+
+.innerContainer {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 60vh;
+    column-gap: 4rem;
+    row-gap: 3rem;
+
+    @media (max-width: 820px) {
+        height: 120vh;
+    }
+
+    @media (max-width: 560px) {
+        height: 100vh;
+    }
+
+    @media (max-width: 376px) {
+        height: 120vh;
+    }
+}
+
+.innerReviewsContainer {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 200vh;
+    column-gap: 4rem;
+    row-gap: 3rem;
+
+    @media (max-width: 820px) {
+        height: 350vh;
+    }
+
+    @media (max-width: 560px) {
+        height: 400vh;
+    }
+}
+
+.pressCard {
+    width: 22.5%;
+
+    @media (max-width: 820px) {
+        width: 45%;
+    }
+}
+
+.reviewCard {
+    width: 31%;
+
+    @media (max-width: 820px) {
+        width: 46%
+    }
+}

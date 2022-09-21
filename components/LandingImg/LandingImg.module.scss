@@ -1,0 +1,90 @@
+.imageContainer {
+    height: 620px;
+    position: relative;
+    margin-bottom: 6rem;
+
+    @media (max-width: 700px) {
+        height: 320px;
+    }
+
+    &:nth-child(2) {
+        margin-bottom: 2.5rem;
+    }
+}
+
+.imageOffset {
+    width: 400px;
+    height: 600px;
+    position: relative;
+    background-color: $primary-light-color;
+
+    @media (max-width: 700px) {
+        width: 200px;
+        height: 300px;
+    }
+}
+
+.landingImage {
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    cursor: pointer;
+
+    &:hover {
+        bottom: 2px;
+    }
+
+    &:hover + .actingLink {
+        background-color: $primary-offset-color;
+    }
+
+    @media (max-width: 700px) {
+        right: 25px;
+        width: 200px;
+        height: 300px;
+    }
+}
+
+.actingLink {
+    font-family: Gothic A1;
+    position: absolute;
+    top: 30px;
+    left: -50px;
+    background-color: $primary-white;
+    padding: 0.5rem 0 0 0;
+    width: 40%;
+    cursor: pointer;
+    text-align: center;
+    transform: skew(-9deg);
+
+}
+
+.linkSpan {
+    font-size: 2rem;
+    @media (max-width: 700px) {
+        font-size: 1.5rem;
+    }
+}
+
+.linkDown {
+    top: 560px;
+    left: 193px;
+
+    @media (max-width: 700px) {
+        top: 260px;
+        left: 113px;
+    }
+}
+
+.offsetUp {
+    top: 50px;
+}
+
+.down {
+    // bottom: 570px;
+    &:hover {
+        bottom: -2px;
+    }
+}

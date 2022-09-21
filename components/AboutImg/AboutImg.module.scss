@@ -1,0 +1,71 @@
+.imageContainer {
+    height: 431.17px;
+    position: relative;
+
+    @media (max-width: 900px) {
+        margin-bottom: 6rem;
+    }
+}
+
+.imageOffset {
+    width: 280px;
+    height: 379.422px;
+    position: relative;
+    background-color: $primary-light-color;
+}
+
+.imageBlock {
+    width: 50px;
+    height: 51.73px;
+    position: relative;
+    background-color: $primary-white;
+    top: 20px;
+}
+
+.aboutImage {
+    width: 290px;
+    height: 383.734px;
+    position: absolute;
+    // left: 50px;
+    bottom: 0;
+}
+
+.offsetUp {
+    top: 20px;
+    right: 30px;
+}
+
+.offsetDown {
+    left: 330px;
+    top: 20px;
+
+    @media (max-width: 900px) {
+        left: 40px;
+    }
+}
+
+.up {
+    top: 45px;
+}
+
+.down {
+    left: 290px;
+    top: 45px;
+
+    @media (max-width: 900px) {
+        left: 0; 
+    }
+}
+
+.blockUp {
+    left: 255px;
+    z-index: -1;
+}
+
+.blockDown {
+    left: 265px;
+
+    @media (max-width: 900px) {
+        left: -25px; 
+    }
+}
