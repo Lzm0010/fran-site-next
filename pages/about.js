@@ -18,7 +18,7 @@ export default function About() {
             <div className={styles.bio}>
                 <div className={styles.innerbio}>
                   <div className={styles.text}>
-                    <h2>ABOUT</h2>
+                    <h2>About</h2>
                     <p>Francesca Barker McCormick is a Hispanic American actress.</p>
                     <p>Prior to her career in film and television, her inherent eye for fashion and shows such as Sweet Home Alabama, Sex and the City, Gossip Girl, and The Devil Wears Prada influenced her decision to move to New York City to begin work within the luxury fashion industry. Francesca produced numerous events with Escada, Vogue, GQ, Vanity Fair, Balmain, Fendi, Ralph Lauren, and many more - the pinnacle being Vogue&apos;s Met Gala! She also worked as a Vogue Market Stylist, acting as a representative of the brand and hosting events on their behalf.</p>
                     <p>It was through her hosting of events onscreen and off, that her passion for performing ignited once again. Since 2020, Barker McCormick has landed roles in Mother-In-Law (with Vivica A. Fox), Platonic (with Rose Byrne and Seth Rogen), American Horror Stories, The Occultist 4, The Four Points, and many more.</p>
