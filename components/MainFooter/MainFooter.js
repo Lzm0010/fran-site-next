@@ -16,12 +16,10 @@ export default function MainFooter() {
               <div className={styles.contactIcon}><MdLocalMovies /></div>
               <div className={styles.contactItem}>
                 <h4 className={styles.contactTitle}>Agent:</h4>
-                {/* <p>Sharon Kelly</p>
-                <p>American Artists Group Talent Agency</p>
-                <p>13321 Ventura Blvd, Suite C-2</p>
-                <p>Sherman Oaks, Ca 91423</p>
-                <p>(818) 430-8688</p>
-                <a href="mailto:AmericanArtistsGroupTalent@gmail.com">AmericanArtistsGroupTalent@gmail.com</a> */}
+                <p>Peter Kallinteris</p>
+                <p>PKA</p>
+                <p>(310) 849-2771</p>
+                <a href="mailto:Peter@peterkagency.com">Peter@peterkagency.com</a>
               </div>
             </div>
             <div className={styles.contactBlock}>

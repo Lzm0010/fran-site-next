@@ -25,6 +25,13 @@ import fran21 from '../public/franPhoto21.jpeg'
 import fran22 from '../public/franPhoto22.jpeg'
 import fran23 from '../public/franPhoto23.jpeg'
 import fran25 from '../public/franPhoto25.jpeg'
+import fran26 from '../public/franPhoto26.jpeg'
+import fran27 from '../public/franPhoto27.jpeg'
+import fran28 from '../public/franPhoto28.jpeg'
+import fran29 from '../public/franPhoto29.jpeg'
+import fran30 from '../public/franPhoto30.jpeg'
+import fran31 from '../public/franPhoto31.jpeg'
+import fran32 from '../public/franPhoto32.jpeg'
 
 
 export default function Home() {
@@ -46,77 +53,98 @@ export default function Home() {
             </div>
             <div className={styles.innerContainer}>
                 <div className={styles.image}>
-                    <Image src={fran1} alt="fran " className={styles.image}/>
+                    <Image src={fran1} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran2} alt="fran " className={styles.image}/>
+                    <Image src={fran26} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran18} alt="fran " className={styles.image}/>
+                    <Image src={fran2} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran3} alt="fran " className={styles.image}/>
+                    <Image src={fran18} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran4} alt="fran " className={styles.image}/>
+                    <Image src={fran3} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran5} alt="fran " className={styles.image}/>
+                    <Image src={fran4} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran22} alt="fran " className={styles.image}/>
+                    <Image src={fran28} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran6} alt="fran " className={styles.image}/>
+                    <Image src={fran5} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran7} alt="fran " className={styles.image}/>
+                    <Image src={fran6} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran15} alt="fran " className={styles.image}/>
+                    <Image src={fran7} alt="fran " fill/>
+                </div>
+                <div className={styles.image}>
+                    <Image src={fran15} alt="fran " fill/>
+                </div>
+                <div className={styles.image}>
+                    <Image src={fran27} alt="fran " fill/>
                 </div>
             
                 <div className={styles.image}>
-                    <Image src={fran8} alt="fran " className={styles.image}/>
+                    <Image src={fran8} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran9} alt="fran " className={styles.image}/>
+                    <Image src={fran9} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran10} alt="fran " className={styles.image}/>
+                    <Image src={fran22} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran11} alt="fran " className={styles.image}/>
+                    <Image src={fran29} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran12} alt="fran " className={styles.image}/>
+                    <Image src={fran30} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran23} alt="fran " className={styles.image}/>
+                    <Image src={fran10} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran13} alt="fran " className={styles.image}/>
+                    <Image src={fran11} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran25} alt="fran " className={styles.image}/>
+                    <Image src={fran31} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran14} alt="fran " className={styles.image}/>
+                    <Image src={fran12} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran16} alt="fran " className={styles.image}/>
+                    <Image src={fran23} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran19} alt="fran " className={styles.image}/>
+                    <Image src={fran13} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran20} alt="fran " className={styles.image}/>
+                    <Image src={fran25} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran21} alt="fran " className={styles.image}/>
+                    <Image src={fran14} alt="fran " fill/>
                 </div>
                 <div className={styles.image}>
-                    <Image src={fran17} alt="fran " className={styles.image}/>
+                    <Image src={fran19} alt="fran " fill/>
+                </div>
+                <div className={styles.image}>
+                    <Image src={fran32} alt="fran " fill/>
+                </div>
+                <div className={styles.image}>
+                    <Image src={fran16} alt="fran " fill/>
+                </div>
+                <div className={styles.image}>
+                    <Image src={fran20} alt="fran " fill/>
+                </div>
+                <div className={styles.image}>
+                    <Image src={fran21} alt="fran " fill/>
+                </div>
+                <div className={styles.image}>
+                    <Image src={fran17} alt="fran " fill/>
                 </div>
             </div>
         </main>

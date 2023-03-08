@@ -17,15 +17,15 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    height: 269vh;
+    height: 380vh;
     column-gap: 1rem;
 
     @media (max-width: 900px) {
-        height: 230vh;
+        height: 250vh;
     }
 
     @media (max-width: 700px) {
-        height: 290vh;
+        height: 510vh;
     }
 }
 
