@@ -16,10 +16,10 @@ export default function MainFooter() {
               <div className={styles.contactIcon}><MdLocalMovies /></div>
               <div className={styles.contactItem}>
                 <h4 className={styles.contactTitle}>Agent:</h4>
-                <p>Peter Kallinteris</p>
-                <p>PKA</p>
-                <p>(310) 849-2771</p>
-                <a href="mailto:Peter@peterkagency.com">Peter@peterkagency.com</a>
+                <p>Stuart Alexander</p>
+                <p>Eris Talent Agency</p>
+                <p>(310) 302-7711</p>
+                <a href="mailto:stuart@eristalentagency.com">stuart@eristalentagency.com</a>
               </div>
             </div>
             <div className={styles.contactBlock}>
@@ -43,20 +43,6 @@ export default function MainFooter() {
                   rel="noopener noreferrer"
                   >
                   francescabmccormick
-                </a>
-              </div>
-            </div>
-            <div className={styles.contactBlock}>
-              <div className={styles.contactIcon}><MdOutlineFileDownload/></div>
-              <div className={styles.contactItem}>
-                <h4 className={styles.contactTitle}>Resume Link:</h4>
-                <a
-                  className={styles.contactLink}
-                  href="/francescamccormickresume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >
-                  Francesca Barker McCormick
                 </a>
               </div>
             </div>

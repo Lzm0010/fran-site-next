@@ -6,6 +6,8 @@ import franPress1 from '../public/franPress1.jpeg'
 import franPress2 from '../public/franPress2.jpeg'
 import franPress3 from '../public/franPress3.jpeg'
 import franPress4 from '../public/franPress4.jpeg'
+import franPress5 from '../public/franPress5.webp'
+import franPress6 from '../public/franPress6.jpg'
 import franReviews1 from '../public/franReviews1.jpeg'
 import franReviews2 from '../public/franReviews2.jpeg'
 import franReviews3 from '../public/franReviews3.jpeg'
@@ -31,6 +33,12 @@ export default function Press() {
                             </div>
                         </div>
                         <div className={styles.innerContainer}>
+                            <div className={styles.pressCard}>
+                                <PressCard link='https://deadline.com/2024/01/lifetime-movie-net-first-quarter-featuring-vivica-fox-tom-sandoval-1235694641/' img={franPress6} title="Deadline" subtitle="Lifetime Movie Net Releases Q1 Movie Slate"/>
+                            </div>
+                            <div className={styles.pressCard}>
+                                <PressCard link='https://beatricemag.com/culture/in-conversation-with-actress-francesca-barker-mccormick/#google_vignette' img={franPress5} title="Beatrice" subtitle="In Conversation With Actress Francesca Barker McCormick"/>
+                            </div>
                             <div className={styles.pressCard}>
                                 <PressCard link='https://www.naludamagazine.com/interview-with-actress-francesca-barker-mccormick/' img={franPress4} title="Naluda Magazine" subtitle="Interview with Actress Francesca Barker McCormick"/>
                             </div>
