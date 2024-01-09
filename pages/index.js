@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
 import LandingImg from '../components/LandingImg/LandingImg'
-import fran1 from '../public/fran1.webp'
-import fran2 from '../public/fran2.webp'
-import fran3 from '../public/fran3.webp'
+import fran1 from '../public/fran1.jpeg'
+import fran2 from '../public/fran2.jpeg'
+import fran3 from '../public/fran3.jpeg'
 
 export default function Home() {
   return (
