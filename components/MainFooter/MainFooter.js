@@ -15,11 +15,21 @@ export default function MainFooter() {
             <div className={styles.contactBlock}>
               <div className={styles.contactIcon}><MdLocalMovies /></div>
               <div className={styles.contactItem}>
-                <h4 className={styles.contactTitle}>Agent:</h4>
+                <h4 className={styles.contactTitle}>LA Agent:</h4>
                 <p>Stuart Alexander</p>
                 <p>Eris Talent Agency</p>
                 <p>(310) 302-7711</p>
                 <a href="mailto:stuart@eristalentagency.com">stuart@eristalentagency.com</a>
+              </div>
+            </div>
+            <div className={styles.contactBlock}>
+              <div className={styles.contactIcon}><MdLocalMovies /></div>
+              <div className={styles.contactItem}>
+                <h4 className={styles.contactTitle}>Southeast Agent:</h4>
+                <p>Carol Shaginaw</p>
+                <p>Carol Shaginaw Talent Agency</p>
+                <p>770-868-7162</p>
+                <a href="mailto:carol@carolshaginawtalent.com">carol@carolshaginawtalent.com</a>
               </div>
             </div>
             <div className={styles.contactBlock}>
